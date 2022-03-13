@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "keymouse"
+version = "0.1.0"
+description = "Keyboard to mouse commands"
+authors = ["Comamoca <comamoca.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+keyboard = "^0.13.5"
+PyAutoGUI = "^0.9.53"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+keymouse = "keymouse.main:main"
