@@ -1,4 +1,4 @@
-# keymouse
+[#](#) keymouse
 
 **NOTE: This command is under development.**
 
@@ -26,3 +26,5 @@ $ git clone https://github.com/Comamoca/keymouse.git
 $ cd keymouse
 $ poetry install
 ```
+
+**NOTE: On Linux you need to run it with sudo.**
